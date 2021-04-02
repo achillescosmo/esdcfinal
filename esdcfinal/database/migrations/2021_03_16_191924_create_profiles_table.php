@@ -26,6 +26,7 @@ class CreateProfilesTable extends Migration
             $table->string('socialnetwork')->nullable();
             $table->string('address')->nullable();
             $table->string('email')->nullable();
+            $table->string('education')->nullable();
             $table->timestamps();
 
             $table->index('user_id');
